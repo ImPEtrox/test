@@ -1,8 +1,8 @@
 import random
 
-def guess_game():
+def guess():
     number = random.randint(1, 20)
-    print("I'm thinking of a number between 1 and 20...")
+    print("Im thinking of a number between 1 and 20")
 
     tries = 0
     while True:
@@ -14,7 +14,7 @@ def guess_game():
         elif guess > number:
             print("Too high.")
         else:
-            print("Correct! Tries:", tries)
+            print("Correct Tries:", tries)
             break
 
-guess_game()
+guess()
